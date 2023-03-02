@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+.nav-bg-color {
+   
+background: rgb(0,36,49);
+background: linear-gradient(180deg, rgba(0,36,49,1) 0%, rgba(0,0,0,1) 54%, rgba(0,36,49,1) 100%);
+}
+
+#responsive-navbar-nav a {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+#responsive-navbar-nav a:hover {
+    color: #DDFFF7;
+    border-bottom: 1px solid #DDFFF7;
+}
+
+#logo {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Mynerve', cursive;
+    margin-left: 20px;
+}

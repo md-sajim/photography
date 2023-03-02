@@ -1,0 +1,326 @@
+.service-full-body {
+    background-color: #011e2b;
+    color: #BFC0BF;
+}
+
+.serviceDetails-maincontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    padding: 50px 0;
+    height: 70vh;
+
+}
+
+#detais-header h1 {
+    font-size: 40px;
+}
+
+#detais-header h2 {
+    font-size: 30px;
+}
+
+.service-container-body {
+    font-family: Arial;
+    margin: 0;
+
+}
+/* 
+img {
+    vertical-align: middle;
+} */
+
+/* Position the image container (needed to position the left and right arrows) */
+.servic-detais-container {
+    position: relative;
+    height: 50vh;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+.mySlides:nth-child(1) {
+    display: block;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #939A9B;
+    padding: 2px 16px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.servic-row {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* Six columns side by side */
+.servic-column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.service-icon {
+    display: flex;
+    align-items: stretch;
+    font-size: 20px;
+    color: #939A9B;
+    line-height: 1.5rem;
+
+
+}
+
+.service-icon p {
+
+    margin-left: 5px;
+    letter-spacing: .1rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.icon-style {
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+#detais-about {
+    width: 60%;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* price and star section*/
+#star-icon {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+/* Details btn*/
+#details-btn {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#details-btn button {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(235, 0, 139);
+    color: #fff;
+}
+
+#details-btn button:hover {
+    border-bottom: 1px solid rgb(235, 0, 139);
+    border-left: 1px solid rgb(235, 0, 139);
+    border-right: 1px solid rgb(235, 0, 139);
+    background-color: rgb(122, 4, 73);
+}
+
+/* reviw section */
+.reviw-body {
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit
+}
+
+a:hover {
+    color: #455A64
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.rating-box {
+    width: 130px;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FBC02D;
+    color: #fff
+}
+
+.rating-label {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.rating-bar {
+    
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px
+}
+
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 5px
+}
+
+.bar-5 {
+    width: 70%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-4 {
+    width: 30%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-3 {
+    width: 20%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-2 {
+    width: 10%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-1 {
+    width: 0%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+td {
+    padding-bottom: 10px
+}
+
+.star-active {
+    color: #FBC02D;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.star-active:hover {
+    color: #F9A825;
+    cursor: pointer
+}
+
+.star-inactive {
+    color: #CFD8DC;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.blue-text {
+    color: #0091EA
+}
+
+.content {
+    font-size: 18px
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-right: 30px
+}
+
+.pic {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px
+}
+
+.vote {
+    cursor: pointer
+}

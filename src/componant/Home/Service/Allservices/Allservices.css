@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.allservices-container {
+    background: #BFC0BF;
+
+
+}
+
+.arr_home {
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+#caroso-items h1 {
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+    background: rgb(0, 36, 49);
+    background: radial-gradient(circle, rgba(0, 36, 49, 1) 0%, rgba(152, 139, 142, 0.036852240896358524) 93%);
+    display: inline-block;
+    padding: 100px 150px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+}

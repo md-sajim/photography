@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+#explor-container {
+    width: 100%;
+    height: 70vh;
+    background-image:
+        linear-gradient(to bottom, rgba(15, 15, 16, 0.857), rgba(30, 30, 33, 0.878)),
+        url('../../asset/banar-asset/wp4759222.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+#explor-container h1 {
+    text-align: center;
+    letter-spacing: 0.17rem;
+    font-size: 5rem;
+}
+
+#explor-container p {
+    text-align: center;
+    letter-spacing: 0.15rem;
+    font-size: 1.25rem;
+    line-height: 5rem;
+}
+
+#explor-container div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#explor-container div div input {
+    width: 80%;
+    padding: 8px 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#explor-container div div input:focus {
+    border-bottom: 3px solid rgb(235, 0, 139);
+    font-size: 14px;
+}
+
+#explor-container div div button {
+    width: 20%;
+    padding: 8px 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    /* font-weight: 600; */
+    letter-spacing: 0.10rem;
+    background-color: rgb(235, 0, 139);
+    color: #fff;
+
+}
+
+#explor-container div div button:hover {
+    background-color: rgba(235, 0, 137, 0.257);
+}
+
+.explor-grid {
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+
+}
+
+.overflow-hedin {
+    width: 100%;
+    overflow: hidden;
+}
+
+.overflow-hedin img {
+    border: 3px solid #002431;
+}
+
+/* img container*/
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 24px;
+    color: ghostwhite;
+}
+
+.top-right:hover {
+    color: red;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+
+
+.img-icon {
+    background-color: #00000000;
+    border: none;
+    font-size: 24px;
+    color: rgb(235, 0, 139);
+}
+
+.img-icon:hover {
+    color: rgba(235, 0, 137, 0.257)
+}

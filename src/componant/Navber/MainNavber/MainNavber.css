@@ -1,0 +1,99 @@
+#show_bg_2 {
+    background-image:
+        linear-gradient(to bottom, rgba(12, 30, 132, 0.927), rgba(42, 19, 117, 0.73)),
+        url('../../../asset/banar-asset/wp4759222.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 3fr 6fr;
+
+}
+
+.second_box {
+    padding-top: 100px;
+}
+
+.second_box ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.second_box a {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(235, 0, 139);
+    text-decoration-thickness: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.second_box a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 25px;
+    background-color: rgba(235, 0, 137, 0.185);
+    border-bottom: 1px solid rgb(235, 0, 139);
+    border-left: 1px solid rgb(235, 0, 139);
+    border-right: 1px solid rgb(235, 0, 139);
+
+}
+
+.frist-box {
+    padding: 20px;
+    font-size: 35px;
+}
+
+.frist-box a:hover {
+    color: gainsboro;
+}
+
+.thard-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* img button*/
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(235, 0, 139);
+    padding: 7px 35px;
+    border-radius: 25px;
+    border-top: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.container .btn:hover {
+    background-color: rgba(235, 0, 137, 0.257);
+    border-bottom: 1px solid rgb(235, 0, 139);
+    border-left: 1px solid rgb(235, 0, 139);
+    border-right: 1px solid rgb(235, 0, 139);
+}
+
+.container .btn #explor-btn {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
